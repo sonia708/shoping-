@@ -1,0 +1,61 @@
+
+<html>
+<head>
+<title>student form </title>
+</head>
+<body> <left> <h>DATE AND TIME</h> 
+    <button type="button" onclick="document.getElementById ('demo').innerHTML=Date()">
+click on me</button>
+    <P id="demo"></P>
+    </left>
+    <center> <img src="C:\Users\soniya\OneDrive\Pictures\orig_7yamunanagar-pullout-pg1-0_1644263363.jpg" alt="students in a class room" width="1080" height="500"> </center>
+
+<center> <h1>student life is the best life </h1>
+<h2>student intro form</h2> 
+<p> fill the all detail its so important students </p> 
+ 
+     <form action= "/action_db.php" method="get">
+        First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" /> <br>  <br>
+         father_name: <input type = "text" name = "father_name" />
+         <br> <br>
+         mother_name: <input type = "text" name = "mother_name" /> <br> <br> 
+    
+   
+    
+   
+        <label for="number"> Phone number:</label> <br>  
+    <input>  <br> <br>
+    <label for="gmail"> gmail: </label> <br> <input> <br> <br>
+        Gender:
+        <input type="radio"  name="Gender" value="male"> mail
+        <input type="radio"  name="Gender" value="female"checked> female <br>
+        
+        <br> 
+    <h2> select your hobies </h2>
+    <input type="checkbox">
+<label for="music">singing</label>
+<input type="checkbox">
+<label for="reading"> Reading</label>
+<input type="checkbox">
+<label for="games"> play Games</label><br>
+<input type="checkbox">
+<label for="dance"> love Dancing </label>
+<input type="checkbox">
+<label for="gamer"> love PBG </label><br>
+<input type="checkbox">
+<label for="food">foody</label><br> <br>
+Description : 
+<textarea rows = "5" cols = "50" name = "description">
+   Enter description here...
+</textarea> <br> <br> 
+<input type="submit" value="Submit">
+<br>
+<h3>click the "Submit" button</h3>
+</form>
+ 
+</center>
+</body>
+</html>
+INSERT INTO `student` (`srno`, `firstname`, `lastname`, `fathername`, `mothername`, `phoneno`, `gmail`, `gender`, `description`) VALUES ('1', 'sonia', 'gupta', 'naveen gupta', 'neelam gupta', '89505870', 'sonia.soniagupta5@gmail.com', 'female', 'i am a student');
